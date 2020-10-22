@@ -1,0 +1,25 @@
+[
+        [
+            "name" : "ComplaintSLAAsyncDefinitions",
+            "displayName" : "ComplaintSLAAsyncDefinitions",
+            "category" : "sla-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.gar.wih.ComplaintSLAAsyncWorkItemHandler()",
+            "documentation" : "sla-workitem/index.html",
+
+            "parameters" : [
+                                "code" : new StringDataType()
+                ,"complaintId" : new StringDataType()
+                ,"complaintType" : new StringDataType()
+                ,"message" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "com.gar.wih:sla-workitem:7.39.0.Final-redhat-00005"
+
+            ],
+            "icon" : "ComplaintSLAAsyncDefinitions.png"
+
+        ]
+
+]
